@@ -100,4 +100,8 @@ gulp.task('watch', function() {
     gulp.watch(['./bower.json'], ['wiredep']);
 });
 
+gulp.task('heroku:production', function(){
+    console.log('herokuduction');
+});
+
 gulp.task('default', ['server', 'inject', 'watch']);
