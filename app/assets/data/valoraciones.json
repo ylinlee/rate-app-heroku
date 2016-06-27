@@ -1,0 +1,22 @@
+[{
+    "_id": "57505a7523bf60142500003e",
+    "stars": 5,
+    "description": "Es mi personaje favorito",
+    "personId": "57504e7223bf601425000038",
+    "createDate": "2016-06-02T16:10:29.039Z",
+    "__v": 0
+}, {
+    "_id": "57505b1523bf60142500003f",
+    "stars": 3,
+    "description": "No habla mucho",
+    "personId": "575050c823bf601425000039",
+    "createDate": "2016-06-02T16:13:09.581Z",
+    "__v": 0
+}, {
+    "_id": "57505b6123bf601425000040",
+    "stars": 2,
+    "description": "Es un cascarabias!!!!",
+    "personId": "5750547b23bf60142500003d",
+    "createDate": "2016-06-02T16:14:25.741Z",
+    "__v": 0
+}]

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="rateApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rate app</title>
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="lib/animate.css/animate.css" />
+    <link rel="stylesheet" href="lib/angular-xeditable/dist/css/xeditable.css" />
+    <link rel="stylesheet" href="lib/bootstrap-star-rating/css/star-rating.min.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="scripts/common/widgets/rate-404/css/rate-404.css">
+    <!-- endinject -->
+    <style>
+        nav.navbar + section {
+            padding-top: 100px;
+        }
+        .navbar.navbar-inverse {
+            background-color: #2a2730;
+            border-color: #2a2730;
+        }
+    </style>
+</head>
+
+<body ng-controller="MainController as MainCtrl">
+    <nav rate-header nav-text="Valora tus personajes" ng-class="{'top-nav-collapse':scrollDown}" class="navbar-inverse navbar-fixed-top"></nav>
+    <section>
+        <div rate-carousel id="myCarousel" class="carousel slide" data-ride="carousel" ng-if="MainCtrl.carouselHidden()"></div>
+        <div ui-view></div>
+    </section>
+    <rate-footer author="YCLIN"></rate-footer>
+    <rate-spinner class="ng-hide"></rate-spinner>
+    <!-- bower:js -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="lib/countUp.js/dist/countUp.min.js"></script>
+    <script src="lib/wow/dist/wow.js"></script>
+    <script src="lib/rate-services/dist/rate-services.js"></script>
+    <script src="lib/rate-authentication/dist/rate-authentication.js"></script>
+    <script src="lib/angular-xeditable/dist/js/xeditable.js"></script>
+    <script src="lib/rate-dashboard/dist/rate-dashboard.js"></script>
+    <script src="lib/bootstrap-star-rating/js/star-rating.min.js"></script>
+    <script src="lib/rate-people-common/dist/rate-people-common.js"></script>
+    <script src="lib/rate-people-detail/dist/rate-people-detail.js"></script>
+    <script src="lib/rate-people-list/dist/rate-people-list.js"></script>
+    <script src="lib/rate-people/dist/rate-people.js"></script>
+    <!-- endbower -->
+    
+    <!-- inject:js -->
+    <script src="scripts/app.module.js"></script>
+    <script src="scripts/common/widgets/rate-spinner/rate-spinner.directive.js"></script>
+    <script src="scripts/common/widgets/rate-header/rate-header.directive.js"></script>
+    <script src="scripts/common/widgets/rate-footer/rate-footer.directive.js"></script>
+    <script src="scripts/common/widgets/rate-carousel/rate-carousel.directive.js"></script>
+    <script src="scripts/common/widgets/rate-404/rate-404.directive.js"></script>
+    <script src="scripts/app.controller.js"></script>
+    <script src="scripts/app.constant.js"></script>
+    <script src="scripts/app.config.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

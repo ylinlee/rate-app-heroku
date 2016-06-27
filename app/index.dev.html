@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="rateApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rate app</title>
+    <link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <style>
+        nav.navbar + section {
+          padding-top: 100px;
+        }
+    </style>
+</head>
+
+<body ng-controller="MainController as MainCtrl">
+    <nav rate-header title="Valora tus personajes" ng-class="{'top-nav-collapse':scrollDown}" class="navbar-inverse navbar-fixed-top"></nav>
+    <section>
+        <div rate-carousel id="myCarousel" class="carousel slide" data-ride="carousel" ng-if="MainCtrl.carouselHidden()"></div>
+        <div ui-view></div>
+    </section>
+    <rate-footer author="YCLIN"></rate-footer>
+    <rate-spinner class="ng-hide"></rate-spinner>
+    <!-- bower:js -->
+    <script type="text/javascript" src="lib/countUp.js/dist/angular-countUp.min.js"></script>
+    <!-- endbower -->
+    <!-- inject:js -->
+    <!-- endinject -->
+</body>
+
+</html>

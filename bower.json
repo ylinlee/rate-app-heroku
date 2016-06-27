@@ -1,0 +1,35 @@
+{
+  "name": "rate-app",
+  "description": "Angular application example",
+  "main": "app/index.html",
+  "authors": [
+    "yclin"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rate"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "3.3.4",
+    "components-font-awesome": "^4.6.3",
+    "countUp.js": "https://github.com/inorganik/countUp.js.git#^1.7.1",
+    "wow": "wowjs#^1.1.2",
+    "animate.css": "^3.5.2",
+    "rate-services": "https://github.com/ylinlee/rate-services.git#^0.0.4",
+    "rate-authentication": "https://github.com/ylinlee/rate-authentication.git#^0.0.3",
+    "rate-dashboard": "https://github.com/ylinlee/rate-dashboard.git#^0.0.2",
+    "rate-people": "https://github.com/ylinlee/rate-people.git#^0.0.1"
+  }
+}

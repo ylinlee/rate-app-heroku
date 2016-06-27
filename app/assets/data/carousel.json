@@ -1,0 +1,20 @@
+{
+  "carousel":[
+    {
+      "author":"Anakin Skywalker a su aprendiz Ahsoka Tano",
+      "phrase":"«R2 es mas que un droide, es un amigo.»"
+    },
+    {
+      "author":"Luke Skywalker",
+      "phrase":"«Soy un Jedi, tal como mi padre antes de mí.»"
+    },
+    {
+      "author":"Yoda, a Luke Skywalker",
+      "phrase":"«El tamaño no importa. Mirame a mí. ¿Por mi tamaño me juzgas? ¿Hmm? Hmm. Y no deberías hacerlo. Pues mi aliada es la Fuerza, y una poderosa aliada es.»"
+    },
+    {
+      "author":"Leia Organa",
+      "phrase":"«Tu amigo es todo un mercenario. Dudo que sea capaz de interesarse por algo... O por alguien.»"
+    }
+  ]
+}

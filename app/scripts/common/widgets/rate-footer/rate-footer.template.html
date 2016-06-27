@@ -1,0 +1,39 @@
+<style>
+  @media (min-width: 768px)
+  .bs-docs-footer {
+      text-align: left;
+  }
+  .bs-docs-footer {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-top: 100px;
+      color: #99979c;
+      text-align: center;
+      background-color: #2a2730;
+  }
+  .bs-docs-footer-links {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  @media (min-width: 768px)
+  .bs-docs-footer p {
+      margin-bottom: 0;
+  }
+  .bs-docs-footer-links li {
+    display: inline-block;
+  }
+  .bs-docs-footer a {
+    color: #fff;
+  }
+</style>
+<footer class="bs-docs-footer" role="contentinfo">
+    <div class="container">
+        <ul class="bs-docs-footer-links">
+            <li><a href="https://github.com/ylinlee?tab=repositories" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yichuanlinlee" target="_blank">Linkedin</a></li>
+            <li><a href="#/about/" target="_blank">About</a></li>
+        </ul>
+        <p>Built with all the love by <b>{{RateFooterCtrl.author}}</b> using <a href="https://angularjs.org/">AngularJS 1.5 <img ng-src="{{RateFooterCtrl.getImgUrl()}}"></a>.</p>
+        <p>Code licensed <a rel="license" href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>.</p>
+    </div>
+</footer>
